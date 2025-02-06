@@ -1,9 +1,0 @@
-#this is ti allow the changing from django database to a postgresql database
-psycopg2-binary==2.9.9
-
-#this library will enable the proper management of images 
-pillow==11.1.0
-
-
-#this will allow the dependencies to be installed for me
-#activate by pip3 install -r requirements.txt
