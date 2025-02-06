@@ -1,0 +1,19 @@
+{% load static %} 
+
+{% comment %} this is to load the css files from the static folder {% endcomment %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Customer Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{% static "registration.css" %}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Customer Registration</h1>
+    </div>
+  </body>
+</html>
