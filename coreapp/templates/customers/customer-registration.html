@@ -9,11 +9,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Customer Registration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="{% static "registration.css" %}">
+    <link rel="stylesheet" href="{% static "main.css" %}">
   </head>
+
   <body>
+
     <div class="container">
+
       <h1>Customer Registration</h1>
+      
+      <form  method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Submit</button>
+      </form>
+
     </div>
+
   </body>
+
 </html>
